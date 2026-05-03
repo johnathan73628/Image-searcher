@@ -44,7 +44,7 @@ This tool is helpful for:
 
 ```bash
 git clone https://github.com/johnathan73628/Image-searcher.git
-cd Image-searcher.git
+cd Image-searcher
 ```
 
 ### 2. Create a virtual environment (recommended)
