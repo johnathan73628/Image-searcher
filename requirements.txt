@@ -1,0 +1,5 @@
+pipx
+requests
+pillow
+imagehash
+beautifulsoup4
