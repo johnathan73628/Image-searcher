@@ -43,8 +43,8 @@ This tool is helpful for:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/image-similarity-finder.git
-cd image-similarity-finder
+git clone https://github.com/johnathan73628/Image-searcher.git
+cd Image-searcher.git
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -57,7 +57,7 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 ### 3. Install dependencies
 
 ```bash
-pip install requests pillow imagehash beautifulsoup4
+pip install -r requirements.txt
 ```
 
 ---
@@ -67,13 +67,13 @@ pip install requests pillow imagehash beautifulsoup4
 ### Basic command
 
 ```bash
-python image_finder.py <url> <reference_image>
+python main.py <url> <reference_image>
 ```
 
 ### Example
 
 ```bash
-python image_finder.py https://example.com ./reference.jpg
+python main https://example.com ./reference.jpg
 ```
 
 ---
@@ -88,7 +88,7 @@ python image_finder.py https://example.com ./reference.jpg
 ### Example with options
 
 ```bash
-python image_finder.py https://example.com reference.jpg --threshold 8 --depth 3
+python main.py https://example.com reference.jpg --threshold 8 --depth 3
 ```
 
 ---
